@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--viewport is added so we can make the design resposive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sumaya Univerity Website Design</title>
+        <link rel="stylesheet" href="university_web.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <!--This is the first section: header section-->
+        <section class="header" id="home">
+            <nav>
+                <a class="logo" href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>    
+                    <ul>
+                        <li><a href="#home">Home<i class="fa fa-home" ></i></a></li>
+                        <li><a href="#about">About<i class="fa fa-question"></i></a></li>
+                        <li><a href="#course">Courses<i class="fa fa-pencil-square-o"></i></a></li>
+                        <li><a href="#alumni">Blog<i class="fa fa-newspaper-o"></i></a></li>
+                        <li><a href="#research">Research<i class="fa fa-magic"></i></a></li>
+                        <li><a href="#enroll">Enrollment<i class="fa fa-user-circle-o"></i></a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="showMenu()"></i>           
+            </nav>
+            <div class="text-box">
+                <h1>Sumaya University</h1>
+                <p>For decades, Sumaya University has upheld a standard of excellence in research, teaching, and community service.<br>Our legacy is built on the achievements of our distinguished faculty and successful graduates, with a deep commitment to nurturing each student&apos;s potential. We deeply care about your success and academic performance, preparing you to excel in a dynamic global landscape. Join us now, where a legacy of excellence meets a future full of promise.</p>
+                <a href="" class="more-btn">For More,Click Here</a>
+            </div>
+        </section>
+                                                                 <!--Section 2:Courses-->
+        <section class="course" id="course">
+            <h1>Courses We Offer</h1>
+                <p>At Sumaya University, we offer a diverse range of courses designed to cater to various interests and career options.<br>From technology and engineering programs to arts, humanities, and business studies,on a path towards success.</p>
+            <div class="row">
+                <div class="course-divide">
+                    <h3>Diploma Program</h3>
+                    <p>Join our diploma program that offers the newest curriculums and hands-on training to prepare you for an intermediate entry into your chosen profession. </p>
+                </div>
+                <div class="course-divide">
+                    <h3>Bachelor's Program</h3>
+                    <p>Get your bachelor's degree now, with teaching and hands-on training from renowned experts in all fields, and be prepared to thrive in today's dynamic global landscape.</p>
+                </div>
+                <div class="course-divide">
+                    <h3>Doctorate Program</h3>
+                    <p>Whether your passion lies in research, academia, or industry leadership, our Doctorate Program equips you with the skills, knowledge, and network to achieve your goals. Enroll Now.</p>
+                </div>
+            </div>
+        </section>
+                                                 <!--Section 3:Alumni-->
+        <section class="alumni" id="alumni">
+            <h1>Alumni Chapters</h1>
+            <p>These heart-touching and inspiring alumni stories showcase the diverse successes and impactful contributions of our graduates across various fields</p>
+            <div class="row">
+                <div class="alumni-column">
+                    <img src="images/business-grad.png">
+                    <p>Samara Emad, Class of 2010, started her journey at our university with a degree in Business Administration. Armed with the knowledge gained from our esteemed faculty, Sarah quickly rose through the ranks of the corporate world. Today, she serves as the CEO of a leading tech company, where she continues to innovate and lead with a vision shaped by her experiences at our university.
+                    </p>
+                    <div class="layer business">
+                        <h3>Business</h3>
+                    </div>
+                </div>
+                <div class="alumni-column">
+                    <img src="images/Doctor.png">
+                    <p>Dr. Scott Walker, a graduate from our Medical School in 2015, is making significant strides in healthcare. His research, supported by our faculty, has led to breakthroughs in breast cancer treatment. Dr. Scott's journey from student to researcher exemplifies our commitment to fostering excellence and advancing medical science for the betterment of society.
+                    </p>
+                    <div class="layer doctor">
+                        <h3>Medicine</h3>
+                    </div>
+                </div>
+                <div class="alumni-column">
+                    <img src="images/engineer.jpg">
+                    <p>Jessica Paulson, Class of 2018 from our Engineering program, has become an important asset in the development sustainable technology. Her education at our university equipped her with the skills to develop renewable energy solutions that are now implemented globally. Jessica's dedication to innovation and the environmental is a testimony the impact of our engineering programs.
+                    </p>
+                    <div class="layer engineer">
+                        <h3>Engineering</h3>
+                    </div>
+                </div>
+
+            </div>
+    <!-- Section 4: Research Facility -->
+    <section class="research" id="research">
+        <h1>Advanced Research Facilities</h1>
+        <p>Proud to have one of the largest research facilities in the country with high-level equipment, including High-Performance Computing, specialized laboratories and prototyping center. Assistance with training, funding applications, and research development available.</p>
+        <div class="container">
+            <div class="research-column">
+                <img src="images/lab1.jpg" alt="Jeddah Lab">
+                <div class="layer-research">
+                    <h2>Jeddah</h2>
+                    <p>Nestled in the heart of Jeddah, our premier lab is renowned for its cutting-edge biomedical research, featuring advanced imaging technology and collaborative spaces for interdisciplinary innovation.</p>
+                    <a href="" class="research-button">Request Access</a>
+                </div>
+            </div>
+            <div class="research-column">
+                <img src="images/lab3.jpg" alt="Jeddah Lab">
+                <div class="layer-research">
+                    <h2>Khobar</h2>
+                    <p>In AL-Khobar, our leading-edge lab is a hub for policy and social sciences research, equipped with advanced data analytics tools and dedicated spaces for collaborative policy formulation and analysis.</p>
+                    <a href="" class="research-button">Request Access</a>
+                </div>
+            </div>
+            <div class="research-column">
+                <img src="images/lab2.jpg" alt="Jeddah Lab">
+                <div class="layer-research">
+                    <h2>Riyadh</h2>
+                    <p>Located in the heart of Riyadh, our  lab excels in energy and environmental research, boasting high-performance computing resources and specialized equipment for sustainable technology development.</p>
+                    <a href="" class="research-button">Request Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section 5:Reviews-->
+    <section class="reviews">
+        <h1>Student Testimonials</h1>
+        <p>Since we value feedback from our students,we are pleased to share their reviews and experiences below.</p>
+    <div class="row">
+        <div class="reviews-column">
+            <img src="images/student1.jpg" alt="Student 1 review">
+            <div>
+                <p>Attending Sumaya's University has been a transformative experience. The dedicated faculty and innovative programs have prepared me for a successful career in finance.<br>-Class of 2020</p>
+                <h3>Sara Khalid</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="reviews-column">
+            <img src="images/student2.jpg" alt="Student 2 review">
+            <div>
+                <p>I chose Sumaya's for its strong emphasis on research and global perspective. The opportunities here have broadened my horizons and enriched my academic journey.<br>-Class of 2025</p>
+                <h3>Salman Khan</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--Section 5:enroll-->
+    <section class="enroll" id="enroll">
+        <h1>Join Us Now!</h1>
+        <a href="" class="more-btn">Contact Us</a>
+    </section>
+    <!--Section 6:Footer-->
+<!--Section 6:Footer-->
+<section class="footer" id="about">
+    <h4>About</h4>
+    <p>Located in Saudi Arabia, Sumaya University is equipped with state-of-the-art facilities and resources that support research, creativity, and innovation. Whether you are pursuing undergraduate or graduate studies, you will find a supportive community and a wealth of opportunities to explore and grow.</p>
+    <div class="social-media">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+        <!--This section will use JavaScript-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-300px";
+            }
+        </script>
+    </body>
+</html>
